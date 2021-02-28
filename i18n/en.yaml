@@ -20,3 +20,9 @@
 
 - id: home
   translation: "Home"
+
+- id: powered_by
+  translation: "Powered by {{ . }}"
+
+- id: theme
+  translation: "Theme {{ . }}"

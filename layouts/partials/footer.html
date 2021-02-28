@@ -5,9 +5,9 @@
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
     {{- end }}
     <span>&middot;</span>
-    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>{{ i18n "powered_by" "<a href=\"https://gohugo.io/\" rel=\"noopener noreferrer\" target=\"_blank\">Hugo</a>" | safeHTML }}</span>
     <span>&middot;</span>
-    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+    <span>{{ i18n "theme" "<a href=\"https://git.io/hugopapermod\" rel=\"noopener noreferrer\" target=\"_blank\">PaperMod</a>" | safeHTML }}</span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
     <button class="top-link" id="top-link" type="button" accesskey="g">
